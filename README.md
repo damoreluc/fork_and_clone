@@ -27,3 +27,14 @@ it should respond like this:
 
 >  upstream        https://github.com/damoreluc/fork_and_clone.git (push)
 
+---
+
+## Pull from upstream and push locally
+
+Now you  can pull from upstream repo into your local main branch:
+
+>   git pull upstream main
+
+and this updates your local repository. 
+
+From here on, you can do your changes, commit it and finally push to your personal forked repo. **And** you can PR the original repo to include your changes.
